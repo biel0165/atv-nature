@@ -1,0 +1,144 @@
+/*FORMATAÇÃO GERAL*/
+html  {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: calc(12px + 0.390625vw);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/*FORMATAÇÃO DO HEADER*/
+
+header {
+    background-color: #3B8686;
+    padding: 30px 10vw 30px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 10px 0 0;
+}
+header nav ul li :last-child {
+margin-right: 0;  /* elemento da direita sem margin*/
+}
+header nav ul li a.atual {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+header nav ul li a.atual:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* FORMATAÇÃO DO BANNER*/
+
+section.banner {
+    background: 
+    linear-gradient(rgba(121,189,154,0.2), rgba(121,189,154,0.2)),
+     url(../src/images/experiencia.png) no-repeat center center ;
+    background-size:100% auto, 100% auto;
+    padding: 18vw 10vw 20vw 10vw;
+}
+section.banner h2{
+    color: white;
+    font-size: 3rem;
+    width: 30%;
+    background: rgba(59, 134, 134, 0.6);
+}
+section.etapas ul {
+    display: flex;
+    text-align: center;
+    margin: 4vw 0 0 0;
+}
+section.etapas ul li h3 {
+    margin: 2.5vw 0 0 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section.etapas ul li p {
+    margin: 1.5vw 0 0 0;
+    color: #747474;
+}
+section.etapas ul li span {
+    font-size: 5rem;
+    color: #3B8686;
+}
+section.etapas ul li button {
+    margin: 1.5vw 0 1.5vw 0;
+    font-size: 1rem;
+    background-color: #3B8686;
+    color: white;
+    padding: 0.6vw 2vw 0.6vw 2vw;
+    border: none;
+}
+section.canoa  {
+background: 
+linear-gradient(rgba(121,189,154,50%), rgba(121,189,154,50%)),
+ url(../src/images/canoa.png);
+ height: 18vw;
+ background-size:100% auto, 100% auto;
+
+}
+section ul {
+    display: flex;
+    text-align: center;
+    padding: 4vw 0 0 0;
+    
+}
+section.canoa ul li span {
+    font-size: 5rem;
+    margin: 4.5vw 0 0 0;
+    color: white;
+}
+section.canoa ul li p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1vw 0 0 0;
+}
+section.canoa ul li {
+    margin: 0 0 0 13vw;
+}
+section.video div.divG1{
+    display: flex;
+}
+section.video p {
+    margin: 2vw 0 0 2vw;
+    color: #747474;
+} 
+section.video button {
+    margin: 1.5vw 0 1.5vw 2vw;
+    font-size: 1rem;
+    background-color: #0B486B;
+    color: white;
+    padding: 0.6vw 2vw 0.6vw 2vw;
+    border: none;
+    
+}
+section.video div.divG1 h2 {
+margin: 10vw 0 0 0;
+font-size: 2rem;    
+color: #0B486B;
+
+}
+section.video img {
+    margin: 10vw 20vw 0 0 ;
+}
+footer{
+
+    background-color: #3B8686;
+}
+footer div.divG2 {
+    color: white;
+    display: flex;
+}
+footer div ul {
+    display: flex;
+}
+
+
